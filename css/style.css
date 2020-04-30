@@ -1,0 +1,414 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #543024;
+}
+
+div, p, input, header, form, a {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 38px;
+	color: #543024;
+}	
+
+h3 {
+	font-weight: bold;
+	font-size: 19px;
+}
+
+section {
+	padding-top: 96px;
+}
+
+ul, li { 
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+
+.btn:hover {
+	background: #F46A1D;
+}
+
+
+.btn-ghost {
+	font-family: PT Sans;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #FF7D34;
+	border: 1px solid #FF7D34;
+	border-radius: 69px;
+	width: 249px;
+	padding: 14px 36px; 
+	display: block;
+}
+
+.btn-ghost:hover {
+	background: #FF7D34;
+	color: #fff;
+}
+
+
+.btn {
+	font-family: PT Sans;
+	background: #FF7D34;
+	border-radius: 69px;
+	color: #fff;
+	width: 224px;
+	padding: 14px 45px;
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+    text-align: center; 
+    border: none;
+    cursor: pointer;
+	
+}
+
+
+.container {
+	width: 1200px;
+	margin: 0 auto; 
+}
+
+
+.header {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	background: url('../img/photo-bg.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-top: 43px;
+	padding-bottom: 75px;
+}
+
+.header a {
+	color: #fff;
+}
+
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	text-transform: uppercase;
+	width: 136px;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.055em;
+	display: block;
+	background: url('../img/logo.svg') no-repeat left center;
+	padding-left: 37px;
+	margin-right: 111px;
+
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	margin-right: 48px;
+}
+
+ .menu li:not(:last-child) {
+ 	margin-right: 48px;
+ } 
+
+.menu a {
+
+}
+
+
+.choice span {
+	display: block;
+}
+
+.call {
+	display: flex;
+	font-weight: bold;
+	font-size: 15px;
+	align-items: center;
+	margin-left: auto;
+}
+
+
+.call span {
+	margin-left: 17px;
+
+}
+
+.call-btn {
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 100px;
+	padding: 11px 26px;
+	display: block;
+	width: 178px;
+	text-align: center;
+}
+
+
+.call-btn:hover {
+	background: #fff;
+	color: #4F6280;
+
+}
+
+.choice__cnt {
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+
+.choice__nxt {
+	font-size: 12px;
+
+}
+
+
+.offer {
+	margin-top: 193px;
+	text-align: center;
+}
+
+.offer h1 {
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 18px;
+}
+
+
+.offer p {
+	font-family: PT Sans;
+	width: 462px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.4em;
+	margin-bottom: 21px; 
+}
+
+
+.offer .btn {
+	font-family: PT Sans;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 184px;
+
+}
+
+
+.scroll img {
+	display: block;
+    margin: 0 auto;
+}
+
+
+/*Отступы от заголовков h2 к главному элементу в секциях*/
+
+.country h2 {
+	margin-bottom: 47px;
+
+}
+
+.about h2 {
+	margin-bottom: 44px;
+}
+
+.contants h2 {
+	margin-bottom: 52px;
+}
+
+
+
+.destinations {
+	display: flex;
+	justify-content: space-between;
+}
+
+.distance {
+	margin-bottom: 31px;
+}
+
+.destinations__items {
+	width: 585px;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 15px;
+	display: flex;
+	transition: all 0.5s easy;
+}
+
+.destinations__items:hover {
+	box-shadow: 0px 7px 20px rgba(32, 40, 69, 0.25);
+}
+
+.destinations__items img {
+	border-radius: 15px 0px 0px 15px;
+}
+
+
+.destinations__content {
+	padding: 34px 0 37px 30px; 
+
+}
+
+.destinations__content h3 {
+	padding: 15px 0 12px;
+}
+
+.destinations__date {
+	display: flex;
+	font-family: PT Sans;
+	font-weight: 400;
+	font-size: 13px;
+	align-items: center;
+}
+
+.destinations__date span {
+	color: #fff;
+	background: #EE3C5C;
+	border-radius: 30px;
+	padding: 3px 13px;
+	margin-right: 6px;
+	text-align: center;
+}
+
+
+.destinations__date p {
+	color: #EE3C5C;
+	margin-left: 10px;
+}
+
+.destinations__description {
+	font-family: Ubuntu;
+	color: #000000;
+	font-weight: normal;
+	font-size: 13px;
+	width: 250px;
+}
+
+
+.btn-roures {
+	margin-top: 58px;
+}
+
+
+.about-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-content img {
+	border-radius: 15px;
+	display: block;
+}
+
+.about-text h3 {
+	margin-bottom: 21px;
+}
+
+.about-text p {
+	font-family: PT Sans;
+	width: 572px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+
+.about-text p:last-child {
+	margin-bottom: 0;
+}
+
+
+.form {
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 20px;
+	width: 601px;
+	padding: 58px 64px 97px 64px; 
+}
+
+
+.form h3 {
+	width: 367px;
+	margin-bottom: 45px;
+}
+
+
+.support {
+	display: flex;
+	align-items: center;
+}
+
+.form input {
+	font-family: PT Sans;
+	border: 1px solid rgba(39, 52, 86, 0.26);
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	display: block;
+	padding: 19px 26px;
+	margin-bottom: 15px;
+}
+
+.form .btn {
+	width: 296px;
+	padding: 21px 87px;
+	margin-top: 20px;
+	transition: all 0.5s easy;
+}
+
+.phone {
+	margin-left: 219px;
+	text-align: center;
+}
+
+
+.phone img {
+	margin-bottom: 23px;
+}
+
+
+.phone p {
+	font-family: Ubuntu;
+	width: 174px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(114, 52, 26, 0.89);
+}
+
+
+
+.footer-text {
+	font-family: PT Sans;
+	font-weight: normal;
+	font-size: 15px; 
+	color: rgba(114, 52, 26, 0.6);
+	text-align: center;
+	margin: 116px 0;
+}
